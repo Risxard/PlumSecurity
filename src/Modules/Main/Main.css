@@ -1,0 +1,157 @@
+main{
+    background-color: #09090B;
+
+    height: 1800px;
+
+    padding-block: 50px;
+}
+
+
+
+.div-text-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+}
+
+
+.div-text-content h2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    background: linear-gradient(45deg, #ffffff, #71717A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.div-text-content p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: rgba(161, 161, 170, 0.8);
+}
+.div-text-content p span{
+    color: #E4E4E7;
+}
+
+
+
+
+@media screen and (max-width: 379px) {
+    .div-text-content h2{
+        letter-spacing: -1.2px;
+        line-height: 24px;
+        font-size: 24px;
+    }
+
+    .div-text-content p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 380px) {
+    .div-text-content h2{
+        letter-spacing: -1.2px;
+        line-height: 32px;
+        font-size: 28px;
+    }
+
+    .div-text-content p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+
+
+@media screen and (min-width: 480px) {
+    .div-text-content h2{
+        letter-spacing: -1.2px;
+        line-height: 42px;
+        font-size: 38px;
+    }
+
+    .div-text-content p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 999px) {
+    .div-text-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div-text-content p{
+        max-width: 700px;
+    }
+    .div-text-content h2{
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .div-text-content p{
+        max-width: 400px;
+    }
+    .div-text-content h2{
+        min-width: 250px;
+        max-width: 600px;
+    }
+    .div-text-content{
+        gap: 30px;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .div-text-content p{
+        max-width: 600px;
+    }
+
+    .div-text-content{
+        gap: 30px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1079px) {
+    .div-text-content h2{
+        letter-spacing: -1.2px;
+        line-height: 51px;
+        font-size: 44px;
+    }
+
+    .div-text-content p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .div-text-content h2{
+        letter-spacing: -1.2px;
+        line-height: 51px;
+        font-size: 48px;
+    }
+
+    .div-text-content p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+
+

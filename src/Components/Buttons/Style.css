@@ -1,0 +1,77 @@
+.special-btn {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1A1AA;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    padding: 2px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+}
+
+.inner-special-btn {
+    background-color: black;
+    border-radius: 9999px;
+    display: flex;
+    padding: 5px 15.5px;
+}
+
+
+.transition {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background: linear-gradient(90deg, rgba(34, 211, 238, 0) 0%, rgba(34, 211, 238, 0.9) 50%, rgba(34, 211, 238, 0) 100%);
+    mix-blend-mode: normal;
+    border-radius: 0px;
+    border-radius: 9999px;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    transform: translate(-50%, -0%);
+    left: 50%;
+    z-index: -1;
+}
+
+.special-btn:hover .transition {
+    width: 100%;
+    transform: translate(-50%, -95%);
+}
+
+
+
+.learn-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 32px;
+    cursor: pointer;
+
+    user-select: none;
+}
+.learn-more * {
+    transition: all 0.3s ease-in-out;
+}
+
+.learn-more:hover > p,
+.learn-more:hover svg path{
+    color: white;
+    stroke: white;
+}
+
+.learn-more p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1A1AA;
+    margin-bottom: 5px;
+}

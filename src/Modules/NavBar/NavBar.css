@@ -1,0 +1,47 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    color: white;
+    padding-block: 20px;
+}
+
+
+.NavBar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.NavBar ul li {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+    font-size: 14px;
+    line-height: 24px;
+    color: #D4D4D8;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+    z-index: 10; 
+
+}
+
+.NavBar ul li:hover{
+    color: white;
+}
+
+
+
+#Logo{
+    width: 60px;
+    z-index: 10;
+}

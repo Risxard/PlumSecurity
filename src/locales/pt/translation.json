@@ -1,0 +1,22 @@
+{
+    "navBar": {
+        "blog": "Site"
+    },
+    "header": {
+        "mainText": "Desbloqueie um panorama digital <br /> mais seguro agora",
+        "subText": "Não deixe que a segurança desatualizada te atrapalhe. Entre no futuro com uma solução que é tão intuitiva quanto poderosa, oferecendo a paz de espírito para você se concentrar no que realmente importa."
+    },
+    "Buttons": {
+        "joinBtn": "Entre para a lista de espera",
+        "learnBtn": "Saiba mais"
+    },
+    "mainSection": {
+        "firstContentText": {
+            "title": "Quem disse que a proteção digital não pode ser inovadora?",
+            "subTitle": "Com o ByteGuard, gerenciar a cibersegurança da sua empresa é fácil, empoderador e nada entediante. Nossa plataforma intuitiva traz clareza para seus protocolos de segurança, simplifica o gerenciamento de ameaças e coloca o poder da cibersegurança avançada ao seu alcance. <span>Esqueça ferramentas de segurança desatualizadas e abrace soluções inovadoras.</span>"
+        }
+    },
+    "footer": {
+        "text": "texto em português"
+    }
+}

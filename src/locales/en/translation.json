@@ -1,0 +1,22 @@
+{
+    "navBar": {
+        "blog": "Site"
+    },
+    "header": {
+        "mainText": "Unlock a safer digital <br /> landscape now",
+        "subText": "Don’t let outdated security hold you back. Step into the future with a solution that’s as intuitive as it is powerful, giving you the peace of mind to focus on what truly matters."
+    },
+    "Buttons": {
+        "joinBtn": "Join the waitlist",
+        "learnBtn": "Learn more"
+    },
+    "mainSection": {
+        "firstContentText": {
+            "title": "Who said digital protection can’t be innovative?",
+            "subTitle": "With ByteGuard, managing your business’s cybersecurity is effortless, empowering, and anything but boring. Our intuitive platform brings clarity to your security protocols, simplifies your threat management, and puts the power of advanced cybersecurity right at your fingertips. <span>Forget about outdated security tools and embrace innovative solutions.</span>"
+        }
+    },
+    "footer": {
+        "text": "text in Portuguese"
+    }
+}
