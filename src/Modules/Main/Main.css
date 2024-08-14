@@ -1,9 +1,9 @@
 main{
-    background-color: #09090B;
-
     height: 1800px;
-
     padding-block: 50px;
+
+    display: flex;
+
 }
 
 
@@ -35,7 +35,38 @@ main{
     color: #E4E4E7;
 }
 
-
+.spectre {
+    z-index: -10;
+    position: absolute;
+    width: 80%;
+    height: 632px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    
+    background: rgba(9, 9, 11, 0.2);
+    mix-blend-mode: normal;
+    filter: blur(192px);
+    border-radius: 0px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .spectre-2 {
+    z-index: -10;
+    width: 80%;
+    height: 632px;
+    left: 126.5px;
+    bottom: 0;
+  
+    background: linear-gradient(90deg, #0798ff 0%, #157cc6 100%);
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border-radius: 0px;
+  }
 
 
 @media screen and (max-width: 379px) {

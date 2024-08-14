@@ -17,6 +17,12 @@
         }
     },
     "footer": {
-        "text": "texto em português"
+        "footerLinks":{
+            "privacyPolicy":"Política de Privacidade",
+            "terms": "Termos de Uso"
+        },
+        "byteRights": "© 2024 Hypecode Software House MEI.",
+        "byteRightText1": "A marca ByteGuard Security é de propriedade exclusiva da Hypecode Software House MEI. Quaisquer outras marcas mencionadas são de propriedade de seus respectivos titulares. Salvo indicação em contrário, o uso de logotipos de terceiros não implica qualquer tipo de endosso, patrocínio ou vínculo com a ByteGuard Security.",
+        "byteRightText2" : "ByteGuard Security é uma empresa de tecnologia focada em segurança digital, não uma empresa de segurança pessoal. Os serviços de proteção e monitoramento são fornecidos em parceria com Hypecode Software House, especialista no setor."
     }
 }

@@ -15,6 +15,10 @@ const Main: React.FC = () => {
                     dangerouslySetInnerHTML={{ __html: t('mainSection.firstContentText.subTitle') }}
                 />
             </div>
+
+            <div className="spectre">
+                <div className="spectre-2"></div>
+            </div>
         </main>
     );
 }
