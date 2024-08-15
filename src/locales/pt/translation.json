@@ -4,7 +4,7 @@
     },
     "header": {
         "mainText": "Desbloqueie um panorama digital <br /> mais seguro agora",
-        "subText": "Não deixe que a segurança desatualizada te atrapalhe. Entre no futuro com uma solução que é tão intuitiva quanto poderosa, oferecendo a paz de espírito para você se concentrar no que realmente importa."
+        "subText": "Não deixe que a segurança desatualizada te atrapalhe. Entre no futuro com uma solução que é tão intuitiva quanto poderosa, oferecendo paz de espírito para você se concentrar no que realmente importa."
     },
     "Buttons": {
         "joinBtn": "Entre para a lista de espera",
@@ -16,13 +16,17 @@
             "subTitle": "Com o ByteGuard, gerenciar a cibersegurança da sua empresa é fácil, empoderador e nada entediante. Nossa plataforma intuitiva traz clareza para seus protocolos de segurança, simplifica o gerenciamento de ameaças e coloca o poder da cibersegurança avançada ao seu alcance. <span>Esqueça ferramentas de segurança desatualizadas e abrace soluções inovadoras.</span>"
         }
     },
+    "joinSection": {
+        "title": "Veja como a automação de cibersegurança pode transformar seu negócio.",
+        "subTitle": "A solução de cibersegurança que você vai adorar e que atenderá a todas as suas necessidades."
+    },
     "footer": {
-        "footerLinks":{
-            "privacyPolicy":"Política de Privacidade",
+        "footerLinks": {
+            "privacyPolicy": "Política de Privacidade",
             "terms": "Termos de Uso"
         },
         "byteRights": "© 2024 Hypecode Software House.",
-        "byteRightText1": "A marca ByteGuard Security é de propriedade exclusiva da Hypecode Software House. Quaisquer outras marcas mencionadas são de propriedade de seus respectivos titulares. Salvo indicação em contrário, o uso de logotipos de terceiros não implica qualquer tipo de endosso, patrocínio ou vínculo com a ByteGuard Security.",
-        "byteRightText2" : "ByteGuard Security é uma empresa de tecnologia focada em segurança digital, não uma empresa de segurança pessoal. Os serviços de proteção e monitoramento são fornecidos em parceria com Hypecode Software House, especialista no setor."
+        "byteRightText1": "A marca ByteGuard Security é de propriedade exclusiva da Hypecode Software House. Quaisquer outras marcas mencionadas são de propriedade de seus respectivos titulares. Salvo indicação em contrário, o uso de logotipos de terceiros não implica qualquer tipo de endosse, patrocínio ou vínculo com a ByteGuard Security.",
+        "byteRightText2": "ByteGuard Security é uma empresa de tecnologia focada em segurança digital, não uma empresa de segurança pessoal. Os serviços de proteção e monitoramento são fornecidos em parceria com a Hypecode Software House, especialista no setor."
     }
 }

@@ -13,14 +13,15 @@
     overflow: hidden;
     align-items: center;
     justify-content: center;
-
     user-select: none;
+
+    display: block;
 }
 
 .inner-special-btn {
     background-color: black;
     border-radius: 9999px;
-    display: flex;
+    display: block;
     padding: 5px 15.5px;
 }
 

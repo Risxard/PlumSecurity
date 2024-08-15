@@ -13,7 +13,7 @@ const Footer = () => {
     const { t, } = useTranslation();
 
     return (
-        <footer className='padding-inline-center'>
+        <footer className='m-auto mx-width padding-inline-center '>
             <div className='footer-div-1'>
                 <div className="social-links">
                     <a href=''><FontAwesomeIcon icon={faXTwitter} /></a>

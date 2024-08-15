@@ -16,11 +16,38 @@ body {
 }
 
 .padding-inline-center {
-  padding-inline: 100px;
+  padding-inline: 1.5rem;
+}
+
+.mx-width{
+  max-width: 80rem;
+}
+
+.m-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
-@media screen and (max-width: 600px) {
+
+@media (min-width: 1024px) {
+  .padding-inline-center {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 600px) {
   .padding-inline-center {
     padding-inline: 20px;
   }
@@ -49,4 +76,4 @@ body {
   .padding-inline-center {
     padding-inline: 300px;
   }
-}
+} */

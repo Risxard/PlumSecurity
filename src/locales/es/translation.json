@@ -4,7 +4,7 @@
     },
     "header": {
         "mainText": "Desbloquea un panorama digital <br /> más seguro ahora",
-        "subText": "No dejes que la seguridad desactualizada te frene. Entra en el futuro con una solución que es tan intuitiva como poderosa, ofreciendo la tranquilidad para que te enfoques en lo que realmente importa."
+        "subText": "No dejes que la seguridad desactualizada te frene. Entra en el futuro con una solución que es tan intuitiva como poderosa, ofreciendo tranquilidad para que te concentres en lo que realmente importa."
     },
     "Buttons": {
         "joinBtn": "Únete a la lista de espera",
@@ -13,16 +13,20 @@
     "mainSection": {
         "firstContentText": {
             "title": "¿Quién dijo que la protección digital no puede ser innovadora?",
-            "subTitle": "Con ByteGuard, gestionar la ciberseguridad de tu empresa es fácil, empoderante y nada aburrido. Nuestra plataforma intuitiva aporta claridad a tus protocolos de seguridad, simplifica la gestión de amenazas y pone el poder de la ciberseguridad avanzada al alcance de tu mano. <span>Olvida las herramientas de seguridad desactualizadas y abraza soluciones innovadoras.</span>"
+            "subTitle": "Con ByteGuard, gestionar la ciberseguridad de tu empresa es fácil, empoderador y nada aburrido. Nuestra plataforma intuitiva aporta claridad a tus protocolos de seguridad, simplifica la gestión de amenazas y pone el poder de la ciberseguridad avanzada al alcance de tu mano. <span>Olvida las herramientas de seguridad desactualizadas y abraza soluciones innovadoras.</span>"
         }
     },
+    "joinSection": {
+        "title": "Descubre el impacto de la automatización en ciberseguridad.",
+        "subTitle": "La solución en ciberseguridad que amarás y que atenderá todas tus necesidades."
+    },
     "footer": {
-        "footerLinks":{
-            "privacyPolicy":"Política de Privacidad",
+        "footerLinks": {
+            "privacyPolicy": "Política de Privacidad",
             "terms": "Términos de Uso"
         },
         "byteRights": "© 2024 Hypecode Software House.",
-        "byteRightText1": "La marca ByteGuard Security es propiedad exclusiva de Hypecode Software House. Cualquier otra marca mencionada es propiedad de sus respectivos dueños. Salvo indicación en contrario, el uso de logotipos de terceros no implica ningún tipo de respaldo, patrocinio o afiliación con ByteGuard Security.",
-        "byteRightText2" : "ByteGuard Security es una empresa tecnológica enfocada en la seguridad digital, no una empresa de seguridad personal. Los servicios de protección y monitoreo son proporcionados en asociación con Hypecode Software House, un especialista en el sector."
+        "byteRightText1": "La marca ByteGuard Security es propiedad exclusiva de Hypecode Software House. Cualquier otra marca mencionada es propiedad de sus respectivos propietarios. A menos que se indique lo contrario, el uso de logotipos de terceros no implica ningún tipo de respaldo, patrocinio o afiliación con ByteGuard Security.",
+        "byteRightText2": "ByteGuard Security es una empresa tecnológica enfocada en la seguridad digital, no una empresa de seguridad personal. Los servicios de protección y monitoreo son proporcionados en asociación con Hypecode Software House, especialista en el campo."
     }
 }
