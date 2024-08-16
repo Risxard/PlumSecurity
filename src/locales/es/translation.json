@@ -3,22 +3,62 @@
         "blog": "Sitio"
     },
     "header": {
-        "mainText": "Desbloquea un panorama digital <br /> más seguro ahora",
-        "subText": "No dejes que la seguridad desactualizada te frene. Entra en el futuro con una solución que es tan intuitiva como poderosa, ofreciendo tranquilidad para que te concentres en lo que realmente importa."
+        "mainText": "Desbloquea un Panorama <br /> Digital Más Seguro Ahora",
+        "subText": "No dejes que la seguridad obsoleta te detenga. Entra al futuro con una solución que es tan intuitiva como poderosa, ofreciendo tranquilidad para que puedas concentrarte en lo que realmente importa."
     },
-    "Buttons": {
-        "joinBtn": "Únete a la lista de espera",
-        "learnBtn": "Aprende más"
+    "buttons": {
+        "joinBtn": "Inicia tu protección",
+        "learnBtn": "Aprende Más"
     },
     "mainSection": {
         "firstContentText": {
             "title": "¿Quién dijo que la protección digital no puede ser innovadora?",
-            "subTitle": "Con ByteGuard, gestionar la ciberseguridad de tu empresa es fácil, empoderador y nada aburrido. Nuestra plataforma intuitiva aporta claridad a tus protocolos de seguridad, simplifica la gestión de amenazas y pone el poder de la ciberseguridad avanzada al alcance de tu mano. <span>Olvida las herramientas de seguridad desactualizadas y abraza soluciones innovadoras.</span>"
+            "subTitle": "Con ByteGuard, gestionar la ciberseguridad de tu empresa es fácil, empoderador y nada aburrido. Nuestra plataforma intuitiva aporta claridad a tus protocolos de seguridad, simplifica la gestión de amenazas y pone el poder de la ciberseguridad avanzada al alcance de tu mano. <span>Olvídate de las herramientas de seguridad obsoletas y abraza soluciones innovadoras.</span>"
         }
     },
     "joinSection": {
-        "title": "Descubre el impacto de la automatización en ciberseguridad.",
-        "subTitle": "La solución en ciberseguridad que amarás y que atenderá todas tus necesidades."
+        "title": "Descubre cómo la automatización de ciberseguridad puede transformar tu negocio.",
+        "subTitle": "La solución de ciberseguridad que te encantará y que satisfará todas tus necesidades."
+    },
+    "everySection": {
+        "title": "Todo lo que necesitas. Nada de lo que no necesitas.",
+        "subTitle": "Gestión financiera y visibilidad en un solo lugar. Experimenta <span>un conjunto de herramientas flexibles</span> que hacen que cada tarea sea pan comido.",
+        "cards": {
+            "card1": {
+                "title": "Información al alcance de la mano",
+                "subTitle": "Todos tus datos y finanzas en un solo lugar para proporcionar respuestas rápidas y tomar decisiones al instante."
+            },
+            "card2": {
+                "title": "Gestiona en tiempo real",
+                "subTitle": "Ten el control total de las finanzas de tu negocio sobre la marcha utilizando nuestras aplicaciones móviles iOS/Android. Porque, ya sabes, es 2023."
+            },
+            "card3": {
+                "title": "Alertas importantes de negocio",
+                "subTitle": "Elige las alertas que necesitas y recíbelas por correo electrónico, móvil o Slack. Revisa y actúa con un solo clic."
+            },
+            "card4": {
+                "title": "Conecta todas tus aplicaciones",
+                "subTitle": "Trae tus datos con nuestras integraciones integradas para contabilidad, herramientas de ingresos y banca."
+            },
+            "card5": {
+                "title": "Tú estás en control",
+                "subTitle": "Súper rápido. Atajos para todo. Command+K en Mac, Ctrl+K en Windows. Modo oscuro."
+            }
+        }
+    },
+    "meetSection": {
+        "title": "Conoce a Genius",
+        "subTitle": "Nuestro asistente impulsado por IA está diseñado para descifrar cifras financieras complejas e <span>iluminar las tendencias clave</span> en tu negocio.",
+        "cards": {
+            "card1": {
+                "title": "Pronóstico inteligente",
+                "subTitle": "Aprovecha el poder del análisis predictivo de Cobalt para planificar el futuro financiero de tu negocio."
+            },
+            "card2": {
+                "title": "Chatea con Genius",
+                "subTitle": "Solo pregunta. Con Genius a tu lado, navegar por el laberinto financiero se vuelve intuitivo y sin esfuerzo."
+            }
+        }
     },
     "footer": {
         "footerLinks": {
@@ -26,7 +66,7 @@
             "terms": "Términos de Uso"
         },
         "byteRights": "© 2024 Hypecode Software House.",
-        "byteRightText1": "La marca ByteGuard Security es propiedad exclusiva de Hypecode Software House. Cualquier otra marca mencionada es propiedad de sus respectivos propietarios. A menos que se indique lo contrario, el uso de logotipos de terceros no implica ningún tipo de respaldo, patrocinio o afiliación con ByteGuard Security.",
-        "byteRightText2": "ByteGuard Security es una empresa tecnológica enfocada en la seguridad digital, no una empresa de seguridad personal. Los servicios de protección y monitoreo son proporcionados en asociación con Hypecode Software House, especialista en el campo."
+        "byteRightText1": "La marca ByteGuard Security es propiedad exclusiva de Hypecode Software House. Cualquier otra marca mencionada es propiedad de sus respectivos dueños. A menos que se indique lo contrario, el uso de logotipos de terceros no implica ningún tipo de respaldo, patrocinio o afiliación con ByteGuard Security.",
+        "byteRightText2": "ByteGuard Security es una empresa de tecnología centrada en la seguridad digital, no una empresa de seguridad personal. Los servicios de protección y monitoreo son proporcionados en asociación con Hypecode Software House, experta en el sector."
     }
 }

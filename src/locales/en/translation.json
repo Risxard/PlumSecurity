@@ -3,22 +3,62 @@
         "blog": "Site"
     },
     "header": {
-        "mainText": "Unlock a safer digital landscape <br /> now",
+        "mainText": "Unlock a Safer <br /> Digital Panorama Now",
         "subText": "Don't let outdated security hold you back. Step into the future with a solution that's as intuitive as it is powerful, offering peace of mind so you can focus on what truly matters."
     },
-    "Buttons": {
-        "joinBtn": "Join the waitlist",
-        "learnBtn": "Learn more"
+    "buttons": {
+        "joinBtn": "Start your protection",
+        "learnBtn": "Learn More"
     },
     "mainSection": {
         "firstContentText": {
             "title": "Who said digital protection can't be innovative?",
-            "subTitle": "With ByteGuard, managing your company's cybersecurity is easy, empowering, and far from boring. Our intuitive platform brings clarity to your security protocols, simplifies threat management, and puts the power of advanced cybersecurity at your fingertips. <span>Forget outdated security tools and embrace innovative solutions.</span>"
+            "subTitle": "With ByteGuard, managing your company's cybersecurity is easy, empowering, and anything but boring. Our intuitive platform brings clarity to your security protocols, simplifies threat management, and puts the power of advanced cybersecurity at your fingertips. <span>Forget outdated security tools and embrace innovative solutions.</span>"
         }
     },
     "joinSection": {
-        "title": "See how cybersecurity automation impacts your business.",
+        "title": "See how cybersecurity automation can transform your business.",
         "subTitle": "The cybersecurity solution you'll love and that will meet all your needs."
+    },
+    "everySection": {
+        "title": "Everything you need. Nothing you don’t.",
+        "subTitle": "Financial management and visibility in one place. Experience <span>a flexible toolkit </span> that makes every task feel like a breeze.",
+        "cards": {
+            "card1": {
+                "title": "Insights at your fingertips",
+                "subTitle": "All your data and finances in one place to provide quick answers and make decisions instantly."
+            },
+            "card2": {
+                "title": "Manage in real-time",
+                "subTitle": "Have full control of your business finances on the go using our iOS/Android mobile apps. Because, you know, it's 2023."
+            },
+            "card3": {
+                "title": "Important business alerts",
+                "subTitle": "Choose the alerts you need and receive them via email, mobile or Slack. Review and take action in one click."
+            },
+            "card4": {
+                "title": "Connect all your apps",
+                "subTitle": "Bring your data with our built-in integrations for accounting, revenue tools, and banking."
+            },
+            "card5": {
+                "title": "You're in control",
+                "subTitle": "Lightning fast. Shortcuts for everything. Command+K on Mac, Ctrl+K on Windows. Dark mode."
+            }
+        }
+    },
+    "meetSection": {
+        "title": "Meet Genius",
+        "subTitle": "Our AI-driven assistant is designed to decode complex financial figures and <span>illuminate key trends</span> in your business.",
+        "cards": {
+            "card1": {
+                "title": "Smart forecasting",
+                "subTitle": "Harness the power of Cobalt's predictive analytics to map out the financial future of your business."
+            },
+            "card2": {
+                "title": "Chat with Genius",
+                "subTitle": "Just ask. With Genius by your side, navigating the financial maze becomes intuitive and effortless."
+            }
+        }
     },
     "footer": {
         "footerLinks": {
@@ -26,7 +66,7 @@
             "terms": "Terms of Use"
         },
         "byteRights": "© 2024 Hypecode Software House.",
-        "byteRightText1": "The ByteGuard Security brand is the exclusive property of Hypecode Software House. Any other trademarks mentioned are the property of their respective owners. Unless otherwise noted, the use of third-party logos does not imply any endorsement, sponsorship, or affiliation with ByteGuard Security.",
-        "byteRightText2": "ByteGuard Security is a technology company focused on digital security, not a personal security company. Protection and monitoring services are provided in partnership with Hypecode Software House, a specialist in the field."
+        "byteRightText1": "The ByteGuard Security brand is the exclusive property of Hypecode Software House. Any other brands mentioned are the property of their respective owners. Unless otherwise stated, the use of third-party logos does not imply any endorsement, sponsorship, or affiliation with ByteGuard Security.",
+        "byteRightText2": "ByteGuard Security is a technology company focused on digital security, not a personal security company. Protection and monitoring services are provided in partnership with Hypecode Software House, an industry expert."
     }
 }

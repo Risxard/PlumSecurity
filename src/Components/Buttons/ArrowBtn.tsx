@@ -16,8 +16,7 @@ const ArrowBtn = ({ textContent }: SpecialBtnProps) => {
     }
 
     return (
-        // Pass a function reference to onClick
-        <span className='learn-more' onClick={() => scrollToSection('Main')}>
+        <span className='learn-more' onClick={() => scrollToSection('Intro')}>
             <p>{textContent}</p>
             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9.48438 3.8125V14.3125" stroke="#A1A1AA" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />

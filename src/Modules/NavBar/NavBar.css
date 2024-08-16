@@ -1,21 +1,28 @@
-.NavBar{
+.NavBar {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
 
-    width: 100%;
-    height: auto;
-    gap: 10px;
-    color: white;
-    padding-block: 20px;
+    z-index: 9999;
 }
 
 
-.NavBar ul{
+.NavBar>div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    max-width: 80rem;
+
+    width: 100%;
+}
+
+.NavBar ul {
     display: flex;
     flex-direction: row;
-    gap: 40px;
     list-style: none;
     align-items: center;
 }
@@ -31,17 +38,86 @@
     cursor: pointer;
 
     transition: all 0.3s ease-in-out;
-    z-index: 10; 
+    z-index: 10;
 
 }
 
-.NavBar ul li:hover{
+.NavBar ul li:hover {
     color: white;
 }
 
 
 
-#Logo{
+#Logo {
     width: 60px;
     z-index: 10;
+}
+
+
+nav {
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;
+
+    width: 100%;
+}
+
+
+
+nav > .logo-container{
+    display: flex;
+}
+
+@media (min-width: 1024px) {
+    nav > .logo-container{
+        flex: 1 1 0%;
+    }
+}
+
+
+
+.lgn-selector{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 6px;
+}
+
+
+.lng-dropdown{
+    position: absolute;
+    left: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(24, 24, 27, .5);
+    border-radius: 0px 0px 3px 3px;
+
+
+}
+
+
+.lgn-selector span{
+    width: 24px;
+    height: 24px;
+}
+
+.lng-dropdown div{
+    padding: 6px;
+}
+.lng-dropdown div:hover{
+    background-color: #24282b;
+}
+
+
+.lng-dropdown div.selected{
+    border-left: solid 2px rgb(5, 44, 219);
 }

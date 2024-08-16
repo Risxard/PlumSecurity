@@ -68,6 +68,11 @@
     stroke: white;
 }
 
+.learn-more:hover svg{
+    transform: translateY(6px);
+}
+
+
 .learn-more p{
     font-family: "Inter", sans-serif;
     font-weight: 400;

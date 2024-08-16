@@ -6,8 +6,8 @@
         "mainText": "Desbloqueie um panorama digital <br /> mais seguro agora",
         "subText": "Não deixe que a segurança desatualizada te atrapalhe. Entre no futuro com uma solução que é tão intuitiva quanto poderosa, oferecendo paz de espírito para você se concentrar no que realmente importa."
     },
-    "Buttons": {
-        "joinBtn": "Entre para a lista de espera",
+    "buttons": {
+        "joinBtn": "Inicie sua proteção",
         "learnBtn": "Saiba mais"
     },
     "mainSection": {
@@ -20,13 +20,53 @@
         "title": "Veja como a automação de cibersegurança pode transformar seu negócio.",
         "subTitle": "A solução de cibersegurança que você vai adorar e que atenderá a todas as suas necessidades."
     },
+    "everySection": {
+        "title": "Tudo que você precisa. Nada que você não precise.",
+        "subTitle": "Gestão financeira e visibilidade em um só lugar. Experimente <span> um conjunto de ferramentas flexíveis </span> que tornam cada tarefa uma brisa.",
+        "cards": {
+            "card1": {
+                "title": "Insights na ponta dos dedos",
+                "subTitle": "Todos os seus dados e finanças em um só lugar para fornecer respostas rápidas e tomar decisões instantaneamente."
+            },
+            "card2": {
+                "title": "Gerencie em tempo real",
+                "subTitle": "Tenha total controle das finanças do seu negócio em movimento usando nossos aplicativos móveis iOS/Android. Afinal, estamos em 2023."
+            },
+            "card3": {
+                "title": "Alertas importantes de negócios",
+                "subTitle": "Escolha os alertas de que precisa e receba-os por e-mail, celular ou Slack. Revise e tome decisões com um clique."
+            },
+            "card4": {
+                "title": "Conecte todos os seus aplicativos",
+                "subTitle": "Traga seus dados com nossas integrações integradas para contabilidade, ferramentas de receita e bancos."
+            },
+            "card5": {
+                "title": "Você está no controle",
+                "subTitle": "Incrivelmente rápido. Atalhos para tudo. Command+K no Mac, Ctrl+K no Windows. Modo escuro."
+            }
+        }
+    },
+    "meetSection": {
+        "title": "Conheça o Genius",
+        "subTitle": "Nosso assistente impulsionado por IA é projetado para decodificar figuras financeiras complexas e <span>iluminar as principais tendências</span> em seu negócio.",
+        "cards": {
+            "card1": {
+                "title": "Previsão inteligente",
+                "subTitle": "Aproveite o poder da análise preditiva do Cobalt para mapear o futuro financeiro do seu negócio."
+            },
+            "card2": {
+                "title": "Converse com o Genius",
+                "subTitle": "Apenas pergunte. Com o Genius ao seu lado, navegar pelo labirinto financeiro se torna intuitivo e sem esforço."
+            }
+        }
+    },
     "footer": {
         "footerLinks": {
             "privacyPolicy": "Política de Privacidade",
             "terms": "Termos de Uso"
         },
         "byteRights": "© 2024 Hypecode Software House.",
-        "byteRightText1": "A marca ByteGuard Security é de propriedade exclusiva da Hypecode Software House. Quaisquer outras marcas mencionadas são de propriedade de seus respectivos titulares. Salvo indicação em contrário, o uso de logotipos de terceiros não implica qualquer tipo de endosse, patrocínio ou vínculo com a ByteGuard Security.",
+        "byteRightText1": "A marca ByteGuard Security é de propriedade exclusiva da Hypecode Software House. Quaisquer outras marcas mencionadas são de propriedade de seus respectivos titulares. Salvo indicação em contrário, o uso de logotipos de terceiros não implica qualquer tipo de endosso, patrocínio ou vínculo com a ByteGuard Security.",
         "byteRightText2": "ByteGuard Security é uma empresa de tecnologia focada em segurança digital, não uma empresa de segurança pessoal. Os serviços de proteção e monitoramento são fornecidos em parceria com a Hypecode Software House, especialista no setor."
     }
 }
