@@ -2,61 +2,92 @@
     "navBar": {
         "blog": "Site"
     },
+    "form-modal": {
+        "title": "Solicitar Serviço",
+        "subTitle": "Mande-nos um e-mail detalhando seu serviço desejado e nossa equipe retornará o mais breve possível.",
+        "name": {
+            "title": "Nome",
+            "placeholder": "Digite seu nome"
+        },
+        "email": {
+            "title": "Email",
+            "placeholder": "Seu endereço de email"
+        },
+        "message": {
+            "title": "Mensagem",
+            "placeholder": "Digite aqui sua mensagem"
+        },
+        "button": "Solicitar serviço",
+        "buttonSubmitting":"Enviando",
+        "formStatus": {
+            "success": {
+                "title": "Sua mensagem foi enviada",
+                "subtitle": "Obrigado por entrar em contato. Responderemos assim que possível. Siga nossos canais sociais para se manter atualizado!"
+            },
+            "error": {
+                "title": "Erro ao enviar",
+                "subtitle": "Desculpe, não conseguimos enviar sua mensagem. Por favor, tente novamente mais tarde."
+            }
+        }
+    },
     "header": {
-        "mainText": "Desbloqueie um panorama digital <br /> mais seguro agora",
-        "subText": "Não deixe que a segurança desatualizada te atrapalhe. Entre no futuro com uma solução que é tão intuitiva quanto poderosa, oferecendo paz de espírito para você se concentrar no que realmente importa."
+        "mainText": "Desbloqueie um panorama digital seguro",
+        "subText": "Não deixe que a segurança desatualizada te atrapalhe. Entre no futuro com uma solução que é tão intuitiva quanto poderosa, oferecendo tranquilidade para que você possa se concentrar no que realmente importa."
     },
     "buttons": {
-        "joinBtn": "Inicie sua proteção",
-        "learnBtn": "Saiba mais"
+        "joinBtn": "Comece sua proteção",
+        "learnBtn": "Saiba Mais"
     },
     "mainSection": {
         "firstContentText": {
-            "title": "Quem disse que a proteção digital não pode ser inovadora?",
-            "subTitle": "Com o ByteGuard, gerenciar a cibersegurança da sua empresa é fácil, empoderador e nada entediante. Nossa plataforma intuitiva traz clareza para seus protocolos de segurança, simplifica o gerenciamento de ameaças e coloca o poder da cibersegurança avançada ao seu alcance. <span>Esqueça ferramentas de segurança desatualizadas e abrace soluções inovadoras.</span>"
+            "title": "Quem disse que proteção digital não pode ser inovadora?",
+            "subTitle": "Com a ByteGuard, gerenciar a cibersegurança da sua empresa é fácil, empoderador e nada entediante. Nossa plataforma intuitiva traz clareza aos seus protocolos de segurança, simplifica o gerenciamento de ameaças e coloca o poder da cibersegurança avançada em suas mãos. <span>Esqueça as ferramentas de segurança desatualizadas e abrace soluções inovadoras.</span>"
         }
     },
     "joinSection": {
-        "title": "Veja como a automação de cibersegurança pode transformar seu negócio.",
+        "title": "Veja como a automação da cibersegurança pode transformar o seu negócio.",
         "subTitle": "A solução de cibersegurança que você vai adorar e que atenderá a todas as suas necessidades."
     },
     "everySection": {
-        "title": "Tudo que você precisa. Nada que você não precise.",
-        "subTitle": "Gestão financeira e visibilidade em um só lugar. Experimente <span> um conjunto de ferramentas flexíveis </span> que tornam cada tarefa uma brisa.",
+        "title": "Tudo o que você precisa. Nada do que você não precisa.",
+        "subTitle": "Oferecemos <span>serviços de alta qualidade</span>, essenciais para atender às necessidades reais da sua aplicação.",
         "cards": {
             "card1": {
-                "title": "Insights na ponta dos dedos",
-                "subTitle": "Todos os seus dados e finanças em um só lugar para fornecer respostas rápidas e tomar decisões instantaneamente."
+                "title": "Análise de vulnerabilidades",
+                "subTitle": "Identifique e corrija falhas de segurança de forma eficiente, garantindo a proteção de seus dados e sistemas para tomar decisões rápidas e seguras."
             },
             "card2": {
-                "title": "Gerencie em tempo real",
-                "subTitle": "Tenha total controle das finanças do seu negócio em movimento usando nossos aplicativos móveis iOS/Android. Afinal, estamos em 2023."
+                "title": "Teste de intrusão",
+                "subTitle": "Avalie a segurança dos seus sistemas simulando ataques reais. Identifique vulnerabilidades e fortaleça suas defesas para garantir a integridade e proteção dos dados."
             },
             "card3": {
-                "title": "Alertas importantes de negócios",
-                "subTitle": "Escolha os alertas de que precisa e receba-os por e-mail, celular ou Slack. Revise e tome decisões com um clique."
+                "title": "Monitoramento de sistemas",
+                "subTitle": "Monitoramos o desempenho de seus aplicativos e a integridade da sua infraestrutura em tempo real."
             },
             "card4": {
-                "title": "Conecte todos os seus aplicativos",
-                "subTitle": "Traga seus dados com nossas integrações integradas para contabilidade, ferramentas de receita e bancos."
+                "title": "Soluções eficientes e profissionais especializados",
+                "subTitle": "Proteção de elite e suporte especializado para garantir a segurança."
             },
             "card5": {
-                "title": "Você está no controle",
-                "subTitle": "Incrivelmente rápido. Atalhos para tudo. Command+K no Mac, Ctrl+K no Windows. Modo escuro."
+                "title": "Prevenção de Phishing",
+                "subTitle": "Fique protegido. Reconheça sinais suspeitos e mantenha seus dados seguros. Um clique pode fazer toda a diferença."
             }
         }
     },
     "meetSection": {
-        "title": "Conheça o Genius",
-        "subTitle": "Nosso assistente impulsionado por IA é projetado para decodificar figuras financeiras complexas e <span>iluminar as principais tendências</span> em seu negócio.",
+        "title": "Venha nos conhecer",
+        "subTitle": "Estamos disponíveis em vários canais de comunicação, prontos para <span>atender suas necessidades.<span/>",
         "cards": {
             "card1": {
-                "title": "Previsão inteligente",
-                "subTitle": "Aproveite o poder da análise preditiva do Cobalt para mapear o futuro financeiro do seu negócio."
+                "title": "Socialize conosco",
+                "subTitle": "Siga-nos nas redes sociais e conheça mais sobre quem somos. Venha fazer parte da nossa história!"
             },
             "card2": {
-                "title": "Converse com o Genius",
-                "subTitle": "Apenas pergunte. Com o Genius ao seu lado, navegar pelo labirinto financeiro se torna intuitivo e sem esforço."
+                "introTitle": "Ei! Como podemos ajudar?",
+                "inputPlaceholder": "Envie sua pergunta para o WhatsApp",
+                "wppBtnText": "Enviar",
+                "title": "Converse com a gente pelo whatsapp",
+                "subTitle": "É só perguntar. Com a gente ao seu lado, navegar pelo labirinto da cibersegurança se torna fácil."
             }
         }
     },
@@ -66,7 +97,7 @@
             "terms": "Termos de Uso"
         },
         "byteRights": "© 2024 Hypecode Software House.",
-        "byteRightText1": "A marca ByteGuard Security é de propriedade exclusiva da Hypecode Software House. Quaisquer outras marcas mencionadas são de propriedade de seus respectivos titulares. Salvo indicação em contrário, o uso de logotipos de terceiros não implica qualquer tipo de endosso, patrocínio ou vínculo com a ByteGuard Security.",
-        "byteRightText2": "ByteGuard Security é uma empresa de tecnologia focada em segurança digital, não uma empresa de segurança pessoal. Os serviços de proteção e monitoramento são fornecidos em parceria com a Hypecode Software House, especialista no setor."
+        "byteRightText1": "A marca ByteGuard Security é propriedade exclusiva da Hypecode Software House. Quaisquer outras marcas mencionadas são propriedade de seus respectivos proprietários. Salvo indicação em contrário, o uso de logotipos de terceiros não implica em qualquer endosso, patrocínio ou afiliação com a ByteGuard Security.",
+        "byteRightText2": "A ByteGuard Security é uma empresa de tecnologia focada em segurança digital, não uma empresa de segurança pessoal. Serviços de proteção e monitoramento são fornecidos em parceria com a Hypecode Software House, um especialista da indústria."
     }
 }

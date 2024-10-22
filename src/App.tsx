@@ -1,16 +1,24 @@
-import Footer from "./Modules/Footer/Footer";
-import Header from "./Modules/Header/Header"
-import Main from "./Modules/Main/Main"
+import React, { Suspense } from 'react';
+import Header from "./Components/Header/Header"
+import Main from "./Components/Main/Main";
+
+const Footer = React.lazy(() => import('./Components/Footer/Footer'));
 import './i18n';
+import { ModalProvider } from './context/ModalContext';
+import Modal from './Components/Modal/Modal';
+
+
 
 function App() {
-
   return (
-    <>
+    <ModalProvider>
+      <Modal />
       <Header />
       <Main />
-      <Footer />
-    </>
+      <Suspense>
+        <Footer />
+      </Suspense>
+    </ModalProvider>
   )
 }
 

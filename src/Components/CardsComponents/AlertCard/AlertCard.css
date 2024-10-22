@@ -1,0 +1,125 @@
+.a-svg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: calc(2rem - .75rem);
+}
+
+.a-svg svg{
+    max-width: 300px;
+    height: auto;
+}
+
+#Monitoring #DataMen path, #Cam path{
+    fill: white;
+}
+
+.a-svg #Graph1 {
+
+
+}
+.a-svg #Rotation1{
+    transition: all 0.5s ease-in-out;
+}
+
+.alert-card:hover #Rotation1{
+    transform: rotate(10deg);
+    transition: all 0.5s ease-in-out;
+}
+.alert-card:hover #Rotation1 #Vector_116{
+    opacity: 1;
+}
+
+#Vector_116{
+    animation: Light 3s ease-in-out infinite;
+}
+
+
+@keyframes Light {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes BlinkLight {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3; /* Reduz a intensidade */
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#DataLight2 {
+    fill: rgb(9, 255, 0);
+    animation-delay: 0.5s;
+    animation: BlinkLight 1s infinite;
+}
+
+
+#DataLight3 {
+    fill: rgb(255, 255, 0);
+    animation-delay: 0.1s;
+    animation: BlinkLight 1s infinite;
+}
+
+#DataLight4 {
+    fill: rgb(255, 0, 0);
+    animation-delay: 0.6s;
+    animation: BlinkLight 1s infinite;
+}
+
+#DataLight5 {
+    fill: rgb(0, 4, 255);
+    animation-delay: 0.1s;
+    animation: BlinkLight 1s infinite;
+}
+
+#DataLight6 {
+    fill: rgb(9, 255, 0);
+    animation-delay: 0.6s;
+    animation: BlinkLight 1s infinite;
+}
+
+#DataLight7 {
+    fill: rgb(255, 255, 0);
+    animation-delay: 0.10s;
+    animation: BlinkLight 1s infinite;
+}
+
+#DataLight8 {
+    fill: rgb(255, 0, 0);
+    animation-delay: 0.2s;
+    animation: BlinkLight 1s infinite;
+}
+
+#DataLight9 {
+    fill: rgb(0, 4, 255);
+    animation-delay: 0.5s;
+    animation: BlinkLight 1s infinite;
+}
+
+#DataLight10 {
+    fill: rgb(9, 255, 0);
+    animation-delay: 2s;
+    animation: BlinkLight 1s infinite;
+}
+
+#DataLight11 {
+    fill: rgb(255, 255, 0);
+    animation-delay: 1.8s;
+    animation: BlinkLight 1s infinite;
+}

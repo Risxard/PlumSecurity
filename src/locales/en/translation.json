@@ -2,9 +2,37 @@
     "navBar": {
         "blog": "Site"
     },
+    "form-modal": {
+        "title": "Request Service",
+        "subTitle": "Send us an email detailing your desired service and our team will get back to you as soon as possible.",
+        "name": {
+            "title": "Name",
+            "placeholder": "Enter your name"
+        },
+        "email": {
+            "title": "Email",
+            "placeholder": "Your email address"
+        },
+        "message": {
+            "title": "Subject",
+            "placeholder": "Subject to discuss"
+        },
+        "button": "Request service",
+        "buttonSubmitting":"Sending",
+        "formStatus": {
+            "success": {
+                "title": "Your message has been sent",
+                "subtitle": "Thank you for reaching out. We will get back to you as soon as possible. Follow our social channels to stay updated!"
+            },
+            "error": {
+                "title": "Error Sending",
+                "subtitle": "Sorry, we were unable to send your message. Please try again later."
+            }
+        }
+    },
     "header": {
-        "mainText": "Unlock a Safer <br /> Digital Panorama Now",
-        "subText": "Don't let outdated security hold you back. Step into the future with a solution that's as intuitive as it is powerful, offering peace of mind so you can focus on what truly matters."
+        "mainText": "Unlock a safe digital landscape",
+        "subText": "Don't let outdated security hold you back. Step into the future with a solution that is as intuitive as it is powerful, giving you peace of mind so you can focus on what truly matters."
     },
     "buttons": {
         "joinBtn": "Start your protection",
@@ -13,7 +41,7 @@
     "mainSection": {
         "firstContentText": {
             "title": "Who said digital protection can't be innovative?",
-            "subTitle": "With ByteGuard, managing your company's cybersecurity is easy, empowering, and anything but boring. Our intuitive platform brings clarity to your security protocols, simplifies threat management, and puts the power of advanced cybersecurity at your fingertips. <span>Forget outdated security tools and embrace innovative solutions.</span>"
+            "subTitle": "With ByteGuard, managing your company's cybersecurity is easy, empowering, and never boring. Our intuitive platform brings clarity to your security protocols, simplifies threat management, and puts the power of advanced cybersecurity in your hands. <span>Forget outdated security tools and embrace innovative solutions.</span>"
         }
     },
     "joinSection": {
@@ -21,42 +49,45 @@
         "subTitle": "The cybersecurity solution you'll love and that will meet all your needs."
     },
     "everySection": {
-        "title": "Everything you need. Nothing you don’t.",
-        "subTitle": "Financial management and visibility in one place. Experience <span>a flexible toolkit </span> that makes every task feel like a breeze.",
+        "title": "Everything you need. Nothing you don't.",
+        "subTitle": "We offer <span>high-quality services</span>, essential to meet the real needs of your application.",
         "cards": {
             "card1": {
-                "title": "Insights at your fingertips",
-                "subTitle": "All your data and finances in one place to provide quick answers and make decisions instantly."
+                "title": "Vulnerability analysis",
+                "subTitle": "Efficiently identify and fix security flaws, ensuring the protection of your data and systems for quick and secure decision-making."
             },
             "card2": {
-                "title": "Manage in real-time",
-                "subTitle": "Have full control of your business finances on the go using our iOS/Android mobile apps. Because, you know, it's 2023."
+                "title": "Penetration testing",
+                "subTitle": "Evaluate the security of your systems by simulating real attacks. Identify vulnerabilities and strengthen your defenses to ensure data integrity and protection."
             },
             "card3": {
-                "title": "Important business alerts",
-                "subTitle": "Choose the alerts you need and receive them via email, mobile or Slack. Review and take action in one click."
+                "title": "System monitoring",
+                "subTitle": "We monitor the performance of your applications and the integrity of your infrastructure in real time."
             },
             "card4": {
-                "title": "Connect all your apps",
-                "subTitle": "Bring your data with our built-in integrations for accounting, revenue tools, and banking."
+                "title": "Efficient solutions and specialized professionals",
+                "subTitle": "Elite protection and specialized support to ensure security."
             },
             "card5": {
-                "title": "You're in control",
-                "subTitle": "Lightning fast. Shortcuts for everything. Command+K on Mac, Ctrl+K on Windows. Dark mode."
+                "title": "Phishing Prevention",
+                "subTitle": "Stay protected. Recognize suspicious signs and keep your data safe. One click can make all the difference."
             }
         }
     },
     "meetSection": {
-        "title": "Meet Genius",
-        "subTitle": "Our AI-driven assistant is designed to decode complex financial figures and <span>illuminate key trends</span> in your business.",
+        "title": "Come meet us",
+        "subTitle": "We are available through various communication channels, ready to <span>meet your needs.<span/>",
         "cards": {
             "card1": {
-                "title": "Smart forecasting",
-                "subTitle": "Harness the power of Cobalt's predictive analytics to map out the financial future of your business."
+                "title": "Socialize with us",
+                "subTitle": "Follow us on social media and learn more about who we are. Come be part of our story!"
             },
             "card2": {
-                "title": "Chat with Genius",
-                "subTitle": "Just ask. With Genius by your side, navigating the financial maze becomes intuitive and effortless."
+                "introTitle": "Hey! How can we help?",
+                "inputPlaceholder": "Send your question to WhatsApp",
+                "wppBtnText": "Send",
+                "title": "Chat with us via WhatsApp",
+                "subTitle": "Just ask. With us by your side, navigating the cybersecurity maze becomes easy."
             }
         }
     },
@@ -66,7 +97,7 @@
             "terms": "Terms of Use"
         },
         "byteRights": "© 2024 Hypecode Software House.",
-        "byteRightText1": "The ByteGuard Security brand is the exclusive property of Hypecode Software House. Any other brands mentioned are the property of their respective owners. Unless otherwise stated, the use of third-party logos does not imply any endorsement, sponsorship, or affiliation with ByteGuard Security.",
+        "byteRightText1": "The ByteGuard Security brand is the exclusive property of Hypecode Software House. Any other trademarks mentioned are the property of their respective owners. Unless otherwise indicated, the use of third-party logos does not imply any endorsement, sponsorship, or affiliation with ByteGuard Security.",
         "byteRightText2": "ByteGuard Security is a technology company focused on digital security, not a personal security company. Protection and monitoring services are provided in partnership with Hypecode Software House, an industry expert."
     }
 }

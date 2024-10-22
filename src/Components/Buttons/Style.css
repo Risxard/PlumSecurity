@@ -14,7 +14,6 @@
     align-items: center;
     justify-content: center;
     user-select: none;
-
     display: block;
 }
 
@@ -23,6 +22,7 @@
     border-radius: 9999px;
     display: block;
     padding: 5px 15.5px;
+    
 }
 
 
@@ -81,3 +81,4 @@
     color: #A1A1AA;
     margin-bottom: 5px;
 }
+

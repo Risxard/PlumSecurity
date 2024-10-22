@@ -1,0 +1,49 @@
+.manage-svg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    padding: calc(2rem - .75rem);
+}
+
+.manage-svg svg {
+    max-width: 200px;
+    transition: transform 1.5s ease-out;
+}
+.manage-card:hover #PadLock {
+    transform-origin: center;
+    animation: TurnPadlock 1.5s ease-in-out;
+}
+.manage-card:hover #Line1 {
+    animation: TurnLine1 1.5s ease-in-out;
+}
+
+@keyframes TurnPadlock {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+        fill: rgb(167, 25, 25);
+    }
+    100% {
+        transform: scale(1);
+        fill: white;
+    }
+}
+
+@keyframes TurnLine1 {
+    0% {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(2);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}

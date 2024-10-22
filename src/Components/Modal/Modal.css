@@ -1,0 +1,340 @@
+
+.animate {
+    animation-duration: 0.5s;
+    animation-name: animate-fade;
+
+    animation-fill-mode: backwards;
+  }
+  
+@keyframes animate-fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.Modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+
+    z-index: 9999999;
+}
+
+
+.blur-modal {
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.form-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 28rem;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: solid 1px hsla(0, 0%, 100%, .1);
+    border-radius: .5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(9 9 11 / var(--tw-bg-opacity));
+    z-index: 2;
+
+}
+
+.form-svg {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.form-svg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgba(24, 24, 27, .3);
+    border-radius: 9999px;
+    --tw-shadow-color: rgba(14, 116, 144, .3);
+    --tw-shadow: var(--tw-shadow-colored);
+    --tw-ring-color: hsla(0, 0%, 100%, .1);
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.form-svg-container svg {
+    --tw-text-opacity: 1;
+    color: rgb(161 161 170 / var(--tw-text-opacity));
+}
+
+
+.form-content {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    max-width: 24rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    text-align: center;
+}
+
+.form-content>h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    --tw-text-opacity: 1;
+    color: rgb(228 228 231 / var(--tw-text-opacity));
+
+    margin-bottom: 8px;
+}
+
+.form-content>p {
+    --tw-text-opacity: 1;
+    color: rgb(161 161 170 / var(--tw-text-opacity));
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+
+
+@media (min-width: 640px) {
+
+}
+
+
+.form-content form {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    width: 100%;
+
+    gap: 1rem;
+}
+
+.flex-input {
+    width: 100%;
+
+}
+
+.flex-input input {
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+    border: solid 1px hsla(0, 0%, 100%, .1);
+    border-radius: .5rem;
+    --tw-space-y-reverse: 0;
+    margin-bottom: calc(.25rem* var(--tw-space-y-reverse));
+    margin-top: calc(.25rem*(1 - var(--tw-space-y-reverse)));
+    caret-color: rgb(255, 255, 255);
+    --tw-text-opacity: 1;
+    color: rgb(212 212 216 / var(--tw-text-opacity));
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+.flex-input textarea {
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    height: 80px;
+    min-width: 80px;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    background-color: rgb(24, 24, 27);
+    border: solid 1px hsla(0, 0%, 100%, .1);
+    border-radius: .5rem;
+    --tw-space-y-reverse: 0;
+    margin-bottom: calc(.25rem * var(--tw-space-y-reverse));
+    margin-top: calc(.25rem * (1 - var(--tw-space-y-reverse)));
+    caret-color: rgb(255, 255, 255);
+    color: rgb(212, 212, 216);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    resize: none;
+}
+
+
+
+
+
+.form-content form .form-title {}
+
+.form-content form p {
+    text-align: left;
+    --tw-text-opacity: 1;
+    color: rgb(161 161 170 / var(--tw-text-opacity));
+    line-height: 1;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+
+
+
+.form-content form button {
+    font-size: .875rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(9 9 11 / var(--tw-text-opacity));
+    font-weight: 600;
+
+    cursor: pointer;
+
+    border-radius: .375rem;
+
+    border: none;
+}
+
+
+
+
+.form-exit {
+    display: flex;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 2px;
+    border-radius: 4px;
+
+    transition: all 0.3s ease-in-out;
+
+    background: none;
+    border: none;
+    margin: 0;
+    box-shadow: none;
+    text-align: inherit;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-exit:active{
+    border: solid 1px white;
+}
+
+.form-exit:hover svg {
+    color: rgb(255, 255, 255);
+}
+
+.form-exit svg {
+    --tw-text-opacity: 1;
+    color: rgb(161 161 170 / var(--tw-text-opacity));
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-exit:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.185);
+}
+
+.SuccessMessage svg{
+    color: white;
+}
+
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+}
+.social-links a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+
+
+    text-align: center;
+
+    --tw-border-opacity: 1;
+
+    border-radius: 9999px;
+    width: 100%;
+    height: 2.5rem;
+
+    border: solid 1px rgb(71 85 105 / var(--tw-border-opacity));
+
+    position: relative;
+}
+
+.social-links a span{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+
+    transition: all 0.2s ease-in-out;
+}
+
+
+.social-links a:hover span{
+    background-color: white;
+    color: black;
+}
+
+
+.errorSvg{
+    color: red !important;
+}
