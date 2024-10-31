@@ -3,7 +3,7 @@
         "blog": "Site"
     },
     "form-modal": {
-        "title": "Solicitar Serviço",
+        "title": "Solicitar serviço",
         "subTitle": "Mande-nos um e-mail detalhando seu serviço desejado e nossa equipe retornará o mais breve possível.",
         "name": {
             "title": "Nome",
@@ -17,7 +17,7 @@
             "title": "Mensagem",
             "placeholder": "Digite aqui sua mensagem"
         },
-        "button": "Solicitar serviço",
+        "button": "Enviar",
         "buttonSubmitting":"Enviando",
         "formStatus": {
             "success": {
@@ -31,12 +31,12 @@
         }
     },
     "header": {
-        "mainText": "Desbloqueie um panorama digital seguro",
-        "subText": "Não deixe que a segurança desatualizada te atrapalhe. Entre no futuro com uma solução que é tão intuitiva quanto poderosa, oferecendo tranquilidade para que você possa se concentrar no que realmente importa."
+        "mainText": "Liberte o poder da segurança digital",
+        "subText": "Não deixe que a segurança desatualizada o torne vulnerável. Entre no futuro com a ByteGuard e tenha a tranquilidade necessária para se concentrar no que realmente importa."
     },
     "buttons": {
-        "joinBtn": "Comece sua proteção",
-        "learnBtn": "Saiba Mais"
+        "joinBtn": "Solicitar serviço",
+        "learnBtn": "Saiba mais"
     },
     "mainSection": {
         "firstContentText": {

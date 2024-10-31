@@ -12,7 +12,7 @@ export const SpecialBtn = ({ textContent }: SpecialBtnProps) => {
     const { openModal } = useModal();
 
     return (
-        <div className="special-btn-container">
+        <div className="special-btn-container" role="button">
             <div className="special-btn" onClick={() => openModal()}>
                 <div className="inner-special-btn">
                     {textContent}
@@ -20,7 +20,6 @@ export const SpecialBtn = ({ textContent }: SpecialBtnProps) => {
                 <div className="transition"></div>
             </div>
         </div>
-
     );
 }
 
@@ -41,7 +40,7 @@ export const ArrowBtn = ({ textContent }: SpecialBtnProps) => {
     }
 
     return (
-        <span className='learn-more' onClick={() => scrollToSection('Intro')}>
+        <span className='learn-more' role="button" onClick={() => scrollToSection('Intro')}>
             <p>{textContent}</p>
             <ArrowSvg />
         </span>

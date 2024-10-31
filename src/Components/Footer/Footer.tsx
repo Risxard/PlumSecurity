@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import './Footer.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     const { t, } = useTranslation();
@@ -11,8 +11,8 @@ const Footer = () => {
         <footer className='m-auto mx-width padding-inline-center'>
             <div className='footer-div-1'>
                 <div className="f-social-links ">
-                    <a href=''><FontAwesomeIcon icon={faXTwitter} target="_blank"/></a>
-                    <a href='https://www.linkedin.com/company/byteguard-security/' target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    <a href='https://www.x.com/' target="_blank" data-testid="f-X-link"><FontAwesomeIcon icon={faXTwitter}/></a>
+                    <a href='https://www.linkedin.com/company/byteguard-security/' target="_blank" data-testid="f-In-link"><FontAwesomeIcon icon={faLinkedin} /></a>
                     {/* <a href=''><FontAwesomeIcon icon={faFacebook} target="_blank"/></a> */}
                 </div>
 

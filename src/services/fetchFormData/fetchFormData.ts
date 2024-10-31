@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 
 export const fetchFormData = async (data: { name: string; email: string; message: string; }) => {
     try {
-        const response = await axios.post('https://formsubmit.co/ajax/contato@byteguardsecurity.com.br', data, {
+        const response = await axios.post('https://formsubmit.co/ajax/richadson@ymail.com', data, {
             headers: {
                 'Content-Type': 'application/json'
             }
@@ -20,7 +20,7 @@ export const fetchFormData = async (data: { name: string; email: string; message
 
 export const sendEmailJs = async (data: Record<string, unknown> | undefined) => {
     try {
-        const result = await emailjs.send('your_service_id', 'your_template_id', data, 'your_user_id');
+        const result = await emailjs.send('service_qrr7a0p', 'template_zrptdro', data, 'W15P-HcRGyq90Swya');
         console.log('Email enviado com sucesso:', result.text);
         return true;
     } catch (error) {

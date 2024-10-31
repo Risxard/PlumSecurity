@@ -23,7 +23,7 @@ const Modal = () => {
   const [loadingText, setLoadingText] = useState('');
 
 
-  
+
 
   useEffect(() => {
     if (isModalOpen) {
@@ -120,6 +120,7 @@ const Modal = () => {
                 <div className="flex-input">
                   <p>{t('form-modal.name.title')}</p>
                   <input
+                    aria-label='name'
                     type="text"
                     name="name"
                     placeholder={t('form-modal.name.placeholder')}
@@ -131,6 +132,7 @@ const Modal = () => {
                 <div className="flex-input">
                   <p>{t('form-modal.email.title')}</p>
                   <input
+                    aria-label='email'
                     type="email"
                     name="email"
                     placeholder={t('form-modal.email.placeholder')}
@@ -142,6 +144,7 @@ const Modal = () => {
                 <div className="flex-input">
                   <p>{t('form-modal.message.title')}</p>
                   <textarea
+                    aria-label='message'
                     name="message"
                     placeholder={t('form-modal.message.placeholder')}
                     value={formData.message}
@@ -151,11 +154,11 @@ const Modal = () => {
                 </div>
 
 
-                <button type="submit" disabled={isSubmitting}>
+                <button type="submit" disabled={isSubmitting} aria-label='submitBtn'>
                   {isSubmitting ? `${t('form-modal.buttonSubmitting')}${loadingText}` : t('form-modal.button')}
                 </button>
 
-                
+
               </form>
             </div>
           </div>

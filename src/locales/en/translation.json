@@ -3,7 +3,7 @@
         "blog": "Site"
     },
     "form-modal": {
-        "title": "Request Service",
+        "title": "Request service",
         "subTitle": "Send us an email detailing your desired service and our team will get back to you as soon as possible.",
         "name": {
             "title": "Name",
@@ -17,7 +17,7 @@
             "title": "Subject",
             "placeholder": "Subject to discuss"
         },
-        "button": "Request service",
+        "button": "Send",
         "buttonSubmitting":"Sending",
         "formStatus": {
             "success": {
@@ -31,12 +31,12 @@
         }
     },
     "header": {
-        "mainText": "Unlock a safe digital landscape",
-        "subText": "Don't let outdated security hold you back. Step into the future with a solution that is as intuitive as it is powerful, giving you peace of mind so you can focus on what truly matters."
+        "mainText": "Unleash the power of digital security",
+        "subText": "Don't let outdated security make you vulnerable. Step into the future with ByteGuard and gain the peace of mind you need to focus on what really matters."
     },
     "buttons": {
-        "joinBtn": "Start your protection",
-        "learnBtn": "Learn More"
+        "joinBtn": "Request service",
+        "learnBtn": "Learn more"
     },
     "mainSection": {
         "firstContentText": {
