@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const LanguageSelector = () => {
     const { i18n } = useTranslation();
     const [active, setActive] = useState(false);
-    const languageSelectorRef = useRef<HTMLButtonElement>(null);
+    const languageSelectorRef = useRef<HTMLSpanElement>(null);
 
     const handleClickOutside = (event: MouseEvent) => {
         if (
@@ -17,12 +17,14 @@ const LanguageSelector = () => {
 
     useEffect(() => {
         document.addEventListener('mousedown', handleClickOutside);
+        console.log('teste')
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
     }, []);
 
     const handleLanguageChange = (language: string) => {
+
         i18n.changeLanguage(language);
         setActive(false);
     };
@@ -36,13 +38,13 @@ const LanguageSelector = () => {
     const currentFlag = flagMapping[i18n.language] || 'br';
 
     return (
-        <>
+        <span ref={languageSelectorRef}>
             <button
                 id="languageSelector"
                 className='lgn-selector'
                 data-testid="language-selector"
                 onClick={() => setActive(!active)}
-                ref={languageSelectorRef}
+                
             >
                 <span className={`fi fi-${currentFlag}`} />
             </button>
@@ -60,7 +62,7 @@ const LanguageSelector = () => {
                     </button>
                 </div>
             )}
-        </>
+        </span>
     );
 };
 
