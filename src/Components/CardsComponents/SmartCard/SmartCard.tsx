@@ -12,13 +12,13 @@ export const SmartCard = () => {
                 <div className="m-card-inner p-m-card">
                     <div className="win-smart-card">
                         <div className="social-links">
-                            <a href="https://www.instagram.com/byteguardsecurity/" target="_blank">
+                            <a href="https://www.instagram.com/PlumSecurity/" target="_blank">
                                 <span>Instagram</span>
                             </a>
-                            <a href="https://www.linkedin.com/company/byteguard-security/" target="_blank">
+                            <a href="https://www.linkedin.com/company/PlumSecurity/" target="_blank">
                                 <span>LinkedIn</span>
                             </a>
-                            <a href="https://api.whatsapp.com/send/?phone=%2B5527999769330&text&type=phone_number&app_absent=0" target="_blank">
+                            <a href="https://api.whatsapp.com/send/" target="_blank">
                                 <span>WhatsApp</span>
                             </a>
                         </div>

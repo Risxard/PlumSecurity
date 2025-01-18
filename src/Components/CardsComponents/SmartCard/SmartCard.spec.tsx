@@ -7,16 +7,16 @@ describe('SmartCard component', () => {
         render(<SmartCard />);
 
         const instagramLink = screen.getByText('Instagram').closest('a');
-        expect(instagramLink).toHaveAttribute('href', 'https://www.instagram.com/byteguardsecurity/');
+        expect(instagramLink).toHaveAttribute('href', 'https://www.instagram.com/PlumSecurity/');
         expect(instagramLink).toHaveAttribute('target', '_blank');
 
 
         const linkedinLink = screen.getByText('LinkedIn').closest('a');
-        expect(linkedinLink).toHaveAttribute('href', 'https://www.linkedin.com/company/byteguard-security/');
+        expect(linkedinLink).toHaveAttribute('href', 'https://www.linkedin.com/company/PlumSecurity/');
         expect(linkedinLink).toHaveAttribute('target', '_blank');
 
         const whatsappLink = screen.getByText('WhatsApp').closest('a');
-        expect(whatsappLink).toHaveAttribute('href', 'https://api.whatsapp.com/send/?phone=%2B5527999769330&text&type=phone_number&app_absent=0');
+        expect(whatsappLink).toHaveAttribute('href', 'https://api.whatsapp.com/send/');
         expect(whatsappLink).toHaveAttribute('target', '_blank');
     });
 });

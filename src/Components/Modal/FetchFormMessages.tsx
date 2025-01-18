@@ -16,10 +16,10 @@ export const SucessMessage = () => {
                     <p>{t('form-modal.formStatus.success.subtitle')}</p>
 
                     <div className="social-links">
-                        <a href="https://www.instagram.com/byteguardsecurity/" target="_blank">
+                        <a href="https://www.instagram.com/PlumSecurity/" target="_blank">
                             <span>Instagram</span>
                         </a>
-                        <a href="https://www.linkedin.com/company/byteguard-security/" target="_blank">
+                        <a href="https://www.linkedin.com/company/PlumSecurity/" target="_blank">
                             <span>LinkedIn</span>
                         </a>
                     </div>

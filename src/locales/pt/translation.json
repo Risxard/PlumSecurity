@@ -32,7 +32,7 @@
     },
     "header": {
         "mainText": "Liberte o poder da segurança digital",
-        "subText": "Não deixe que a segurança desatualizada o torne vulnerável. Entre no futuro com a ByteGuard e tenha a tranquilidade necessária para se concentrar no que realmente importa."
+        "subText": "Não deixe que a segurança desatualizada o torne vulnerável. Entre no futuro com a PlumSecurity e tenha a tranquilidade necessária para se concentrar no que realmente importa."
     },
     "buttons": {
         "joinBtn": "Solicitar serviço",
@@ -41,7 +41,7 @@
     "mainSection": {
         "firstContentText": {
             "title": "Quem disse que proteção digital não pode ser inovadora?",
-            "subTitle": "Com a ByteGuard, gerenciar a cibersegurança da sua empresa é fácil, empoderador e nada entediante. Nossa plataforma intuitiva traz clareza aos seus protocolos de segurança, simplifica o gerenciamento de ameaças e coloca o poder da cibersegurança avançada em suas mãos. <span>Esqueça as ferramentas de segurança desatualizadas e abrace soluções inovadoras.</span>"
+            "subTitle": "Com a PlumSecurity, gerenciar a cibersegurança da sua empresa é fácil, empoderador e nada entediante. Nossa plataforma intuitiva traz clareza aos seus protocolos de segurança, simplifica o gerenciamento de ameaças e coloca o poder da cibersegurança avançada em suas mãos. <span>Esqueça as ferramentas de segurança desatualizadas e abrace soluções inovadoras.</span>"
         }
     },
     "joinSection": {
@@ -96,8 +96,8 @@
             "privacyPolicy": "Política de Privacidade",
             "terms": "Termos de Uso"
         },
-        "byteRights": "© 2024 Hypecode Software House.",
-        "byteRightText1": "A marca ByteGuard Security é propriedade exclusiva da Hypecode Software House. Quaisquer outras marcas mencionadas são propriedade de seus respectivos proprietários. Salvo indicação em contrário, o uso de logotipos de terceiros não implica em qualquer endosso, patrocínio ou afiliação com a ByteGuard Security.",
-        "byteRightText2": "A ByteGuard Security é uma empresa de tecnologia focada em segurança digital, não uma empresa de segurança pessoal. Serviços de proteção e monitoramento são fornecidos em parceria com a Hypecode Software House, um especialista da indústria."
+        "byteRights": "© 2024 Plum Security.",
+        "byteRightText1": "A marca PlumSecurity Security é propriedade exclusiva da Plum Security. Quaisquer outras marcas mencionadas são propriedade de seus respectivos proprietários. Salvo indicação em contrário, o uso de logotipos de terceiros não implica em qualquer endosso, patrocínio ou afiliação com a PlumSecurity Security.",
+        "byteRightText2": "A PlumSecurity Security é uma empresa de tecnologia focada em segurança digital, não uma empresa de segurança pessoal. Serviços de proteção e monitoramento são fornecidos em parceria com a Plum Security, um especialista da indústria."
     }
 }

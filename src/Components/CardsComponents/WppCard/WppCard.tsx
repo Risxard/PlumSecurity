@@ -9,7 +9,7 @@ export const WppCard = () => {
     const [message, setMessage] = useState('');
 
     const sendMessage = () => {
-        const phoneNumber = '+5527999769330'; // Número de WhatsApp
+        const phoneNumber = '+550000000000'; // Número de WhatsApp
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
     };

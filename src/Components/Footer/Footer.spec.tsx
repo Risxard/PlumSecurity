@@ -14,7 +14,7 @@ describe('SmartCard component', () => {
         expect(linkedinLink).toHaveAttribute('target', '_blank');
 
         const instagramLink = screen.getByTestId('f-In-link');
-        expect(instagramLink).toHaveAttribute('href', 'https://www.linkedin.com/company/byteguard-security/');
+        expect(instagramLink).toHaveAttribute('href', 'https://www.linkedin.com/company/PlumSecurity/');
         expect(instagramLink).toHaveAttribute('target', '_blank');
 
     });
